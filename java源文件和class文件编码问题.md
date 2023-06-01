@@ -16,3 +16,9 @@
 
 **最后总结：在javac的使用中，最好采用-encoding参数指明.java文件使用的字符集，以免造成不可恢复的中文乱码。如：javac -encoding utf-8 Test.java
   而在cmd中也要使用chcp 65001/936 等命令保持terminal的字符集和javac complier的一致。**
+  
+  同样的，使用javadoc时也需要指定字符集：
+  
+  ![ideacharactorset](https://github.com/liu2su/Java-SEnote/assets/96462566/c07f7bbb-1510-4133-902d-d875d37ccbd9)
+  
+  
