@@ -7,7 +7,7 @@
 ## 2. 变量
 
 1. [浮点数](Java中如何判断两个浮点数是否相等.md)
-2. [char](https://github.com/liu2su/Java-SEnote/blob/main/%E9%9D%A2%E8%AF%95%EF%BC%9AJava%20%E4%B8%AD%20char%20%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%9C%AC%E8%B4%A8.md)
+2. [char](Java 中 char 类型的本质.md)
 3. [boolean](https://github.com/liu2su/Java-SEnote/blob/main/%E9%9D%A2%E8%AF%95%EF%BC%9Aboolean%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%80%BC.md)
 4. [难点：变量类型转换](变量类型转换.md)
 
