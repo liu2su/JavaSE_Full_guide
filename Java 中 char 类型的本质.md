@@ -27,3 +27,34 @@ char c = 39532     // 3
 char c = 0x9a6c    // 4
 char c = '\u9a6c'  // 5
 ```
+此外char还可以和整数比较：
+```java
+import java.util.Scanner;
+
+public class test{
+	public static void main(String[] args){
+		double score;
+		char gender;
+		Scanner scoreScan = new Scanner(System.in);
+		System.out.println("输入你的成绩：");
+		score = scoreScan.nextDouble();
+		System.out.println("输入你的性别：");
+		gender = scoreScan.next().charAt(0);
+		if(score >= 8.0){
+			//分组
+			if(gender == 30007){
+        //30007是‘男’在Unicode下的十进制，的值这段代码等价于 == ‘男’
+				System.out.println("入选男子组");
+			}
+			else{
+				System.out.println("入选女子组");
+			}
+		}
+		else{
+			System.out.println("您没有入选。");
+		}
+	}
+
+}
+```
+
