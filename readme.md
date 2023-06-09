@@ -18,4 +18,4 @@
 4. [位运算符](bitwiseoperation.md)
 
 ## 4.流程控制
-1. [switch穿透](switch-fall-through.md)
+1. [switch控制流](switch-fall-through.md)
