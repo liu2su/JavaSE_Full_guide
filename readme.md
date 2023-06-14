@@ -1,8 +1,8 @@
 # Java面经
 ## 1. Java 基础
 
-1. [解释型语言和编译型语言](https://github.com/liu2su/Java-SEnote/blob/main/interpreted%20language%20%26%20complied%20language%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%80%A7.md)
-2. [.java 和 .class](https://github.com/liu2su/Java-SEnote/blob/main/java%E6%BA%90%E6%96%87%E4%BB%B6%E5%92%8Cclass%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.md)
+1. [解释型语言和编译型语言](Java基础/interpreted_language&complied_language的跨平台性.md)
+2. [.java 和 .class](java基础/java源文件和class文件编码问题.md)
 
 ## 2. 变量
 
