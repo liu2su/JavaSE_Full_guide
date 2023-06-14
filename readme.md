@@ -18,9 +18,9 @@
 4. [位运算符](运算符/bitwiseoperation.md)
 
 ## 4.流程控制
-1. [switch控制流](switch-fall-through.md)
-2. [空心金字塔](空心金字塔.md)
-3. [循环控制](for循环周期.md)
+1. [switch控制流](流程控制/switch-fall-through.md)
+2. [空心金字塔](流程控制/空心金字塔.md)
+3. [循环控制](流程控制/for循环周期.md)
 
 ## 5.数组
 
