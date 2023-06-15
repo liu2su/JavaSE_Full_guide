@@ -5,6 +5,7 @@ boolean x = true;
 boolean y = false;
 short z = 46;
 if((z++ == 46)&&(y=true)){
+  //z++ == 46 先判断后自增
   z++;
 }
 if((x= false) ||(++z == 49)){
