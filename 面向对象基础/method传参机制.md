@@ -31,4 +31,4 @@ Similar to trying to assign a value too large for an int; int value = 1234567890
 It can infer if the data type can hold the value. 
 ```
 
-暂时当做标准答案吧。
+暂时当做标准答案吧。当然精度低的实参是可以传递给精度高的形参的。
