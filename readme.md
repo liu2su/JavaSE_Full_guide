@@ -16,6 +16,7 @@
 2. [逻辑运算符](运算符/logic_operator.md)
 3. [复合运算符](运算符/复合运算符.md)
 4. [位运算符](运算符/bitwiseoperation.md)
+5. [自增运算符深入](运算符/System.out.println((x++)+(++x)).md)
 
 ## 4.流程控制
 1. [switch控制流](流程控制/switch-fall-through.md)
