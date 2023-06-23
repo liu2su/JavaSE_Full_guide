@@ -34,6 +34,6 @@
 3. [重载（overload）](面向对象基础/overload.md)
 4. [object创建流程](面向对象基础/对象创建流程.md)
 5. [构造函数的复用](面向对象基础/构造函数的复用.md)
-6. [anonymous_objecr]
+6. [anonymous_object](面向对象基础/anonymous_object.md)
 
 ## 7.面向对象OOP-中级
