@@ -33,3 +33,7 @@
 2. [对象克隆](面向对象基础/对象clone.md)
 3. [重载（overload）](面向对象基础/overload.md)
 4. [object创建流程]
+5. [构造函数的复用]
+6. [anonymous_objecr]
+
+## 7.面向对象OOP-中级
