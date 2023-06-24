@@ -1,4 +1,4 @@
-# Java学习错题本
+# Java学习注意事项
 ## 1. Java 基础
 
 1. [解释型语言和编译型语言](Java基础/interpreted_language&complied_language的跨平台性.md)
