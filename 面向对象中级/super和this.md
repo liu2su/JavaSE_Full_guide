@@ -1,4 +1,7 @@
 ### 深入理解this和super
+
+this是一个引用，this是一个变量，在this中保存了对象地址（指向自身），this存储在JVM堆内存的内部。
+
 首先this调用构造器是不能进行递归调用的：
 
 ```java
