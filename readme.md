@@ -37,4 +37,6 @@
 6. [anonymous_object](面向对象基础/anonymous_object.md)
 
 ## 7.面向对象OOP-中级
-1. [encapsulate](面向对象中级/封装.md)
+1. [包]
+2. [encapsulate](面向对象中级/封装.md)
+3. [继承引出重写](面向对象中级/由继承引出重写.md)
