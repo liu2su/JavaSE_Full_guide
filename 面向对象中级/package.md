@@ -4,7 +4,7 @@
 
 基本语法为：
 ```java 
-package folder1.folder2.name 
+package folder1.folder2.name //公司名.项目名.业务模块名
 
 ```
 
