@@ -3,6 +3,7 @@
 
 1. [解释型语言和编译型语言](Java基础/interpreted_language&complied_language的跨平台性.md)
 2. [.java 和 .class](java基础/java源文件和class文件编码问题.md)
+3. [编译阶段和运行阶段]
 
 ## 2. 变量
 
@@ -42,4 +43,4 @@
 2. [encapsulate](面向对象中级/封装.md)
 3. [继承引出重写](面向对象中级/由继承引出重写.md)
 4. [this细节](面向对象中级/this细节.md)
-5. [多态-polymorphism编译阶段和运行阶段]
+5. [动态绑定和静态绑定]
