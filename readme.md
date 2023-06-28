@@ -3,7 +3,7 @@
 
 1. [解释型语言和编译型语言](Java基础/interpreted_language&complied_language的跨平台性.md)
 2. [.java 和 .class](java基础/java源文件和class文件编码问题.md)
-3. [编译阶段和运行阶段]
+3. [编译阶段和运行阶段](java基础/编译阶段和运行阶段.md)
 
 ## 2. 变量
 
