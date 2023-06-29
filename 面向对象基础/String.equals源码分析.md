@@ -23,3 +23,9 @@ public boolean equals(Object anObject) {
         return false;
     }
 ```
+
+在分析源码时我犯了一个错误，因为我没有彻底理解向下转型已经编译类型的概念：
+
+我认为``` if (anObject instanceof String)``` 这句话已经判定了 anObject 是否为String,或者String的子类，为什么下面还需要向下转型呢？
+
+这是因为anObject的编译类型是Object,编译器是不知道他的运行类型的，所以如果不转换类型是无法访问String 的特有字段和方法。
