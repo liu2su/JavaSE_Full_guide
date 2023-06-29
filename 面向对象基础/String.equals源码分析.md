@@ -28,4 +28,4 @@ public boolean equals(Object anObject) {
 
 我认为``` if (anObject instanceof String)``` 这句话已经判定了 anObject 是否为String,或者String的子类，为什么下面还需要向下转型呢？
 
-这是因为anObject的编译类型是Object,编译器是不知道他的运行类型的，而 instanceof比较的是运行类型，所以如果不转换类型是无法访问String 的特有字段和方法。
+这是因为anObject的编译类型是Object(形参列表的数据类型是Object，隐藏了一个向上转换，即拿父类引用指向了一个子类运行类型）,编译器是不知道他的运行类型的，而 instanceof比较的是运行类型，所以如果不转换类型是无法访问String 的特有字段和方法。
