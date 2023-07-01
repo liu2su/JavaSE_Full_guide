@@ -45,4 +45,4 @@
 4. [this细节](面向对象中级/this细节.md)
 5. [再谈==比较操作符](面向对象中级/再谈==方法.md)
 6. [String.equal源码分析](面向对象基础/String.equals源码分析.md)
-7. [println打印对象机制]
+7. [println打印对象机制](面向对象中级/println打印对象机制.md)
