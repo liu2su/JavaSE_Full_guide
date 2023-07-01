@@ -45,3 +45,4 @@
 4. [this细节](面向对象中级/this细节.md)
 5. [动态绑定和静态绑定]
 6. [String.equal源码分析](面向对象基础/String.equals源码分析.md)
+7. [println打印对象机制]
