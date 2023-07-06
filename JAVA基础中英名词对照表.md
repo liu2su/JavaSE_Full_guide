@@ -10,4 +10,5 @@
 
 ## 设计模式
 1. 单例模式 singelton mode 饿汉式 Early initialization 懒汉式 lazy initialization
+2. 模板模式 template pattern
 
