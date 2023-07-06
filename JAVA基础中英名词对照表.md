@@ -8,3 +8,6 @@
 ## JVM
 1. 静态域 static field
 
+## 设计模式
+1. 单例模式 singelton mode 饿汉式 Early initialization 懒汉式 lazy initialization
+
