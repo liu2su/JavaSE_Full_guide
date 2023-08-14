@@ -3,3 +3,4 @@
 单例模式分为：
 饿汉式 Early initialization 和 懒汉式 lazy initialization 这两种子模式
 
+具体解释请看笔记
