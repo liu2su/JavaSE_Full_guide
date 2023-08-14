@@ -1,2 +1,5 @@
 单例模式（singleton pattern）是一种设计模式：
 
+单例模式分为：
+饿汉式 Early initialization 和 懒汉式 lazy initialization 这两种子模式
+
