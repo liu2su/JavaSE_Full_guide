@@ -1,54 +1,10 @@
-# Java学习注意事项(停更，直接看tree)
+# 已更新
 ## 1. Java 基础
-
-1. [解释型语言和编译型语言](Java基础/interpreted_language&complied_language的跨平台性.md)
-2. [.java 和 .class](java基础/java源文件和class文件编码问题.md)
-3. [编译阶段和运行阶段](java基础/编译阶段和运行阶段.md)
-
 ## 2. 变量
-
-1. [浮点数](变量/Java中如何判断两个浮点数是否相等.md)
-2. [char](变量/Java中char类型的本质.md)
-3. [boolean](变量/boolean类型的值.md)
-4. [难点：变量类型转换](变量/类型转换.md)
-
 ## 3.运算符
-1. [\ % ++ --](运算符/运算符里的除，取模和自增自减.md)
-2. [逻辑运算符](运算符/logic_operator.md)
-3. [复合运算符](运算符/复合运算符.md)
-4. [位运算符](运算符/bitwiseoperation.md)
-5. [自增运算符深入](运算符/System.out.println((x++)+(++x)).md)
-
 ## 4.流程控制
-1. [switch控制流](流程控制/switch-fall-through.md)
-2. [空心金字塔](流程控制/空心金字塔.md)
-3. [循环控制](流程控制/for循环周期.md)
-
 ## 5.数组
-1. [杨辉三角](数组/leetcode118.md)
-2. [静态声明和动态声明](数组/静态声明和动态声明.md)
-3. [赋值错误](数组/数组赋值错题.md)
-4. [数组元素的数据类型](数组/数组元素的数据类型.md)
-
 ## 6.面向对象OOP-基础
-1. [method传参机制](面向对象基础/method传参机制.md)
-2. [对象克隆](面向对象基础/对象clone.md)
-3. [重载（overload）](面向对象基础/overload.md)
-4. [object创建流程](面向对象基础/对象创建流程.md)
-5. [构造函数的复用](面向对象基础/构造函数的复用.md)
-6. [anonymous_object](面向对象基础/anonymous_object.md)
-
 ## 7.面向对象OOP-中级
-1. [包](面向对象中级/package.md)
-2. [encapsulate](面向对象中级/封装.md)
-3. [继承引出重写](面向对象中级/由继承引出重写.md)
-4. [this细节](面向对象中级/this细节.md)
-5. [再谈==比较操作符](面向对象中级/再谈==方法.md)
-6. [String.equal源码分析](面向对象基础/String.equals源码分析.md)
-7. [println打印对象机制](面向对象中级/println打印对象机制.md)
-
 ## 8.面向对象高级
-1. [再谈对象创建过程](面向对象高级/再谈对象创建过程.md)
-2. [抽象类](面向对象高级/抽象类与private.md)
-3. [动态绑定错题本](面向对象高级/再谈动态绑定.md)
-4. [static与多态](面向对象高级/static与多态（重写）.md)
+
