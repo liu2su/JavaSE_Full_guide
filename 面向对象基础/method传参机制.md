@@ -31,4 +31,4 @@ Similar to trying to assign a value too large for an int; int value = 1234567890
 It can infer if the data type can hold the value. 
 ```
 
-暂时当做标准答案吧。当然精度低的实参是可以传递给精度高的形参的。8.13 更新，通过复习得知，类型转换只发生在运算和赋值过程中，不发生在参数传递过程中
+暂时当做标准答案吧。当然精度低的实参是可以传递给精度高的形参的。
