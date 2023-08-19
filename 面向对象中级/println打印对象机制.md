@@ -1,4 +1,4 @@
-我们都知道当对象调用println时调用的是toSring方法，看下面的代码
+我们都知道当println输出对象时调用的是toSring方法，看下面的代码
 
 ```java
 public void list(){
