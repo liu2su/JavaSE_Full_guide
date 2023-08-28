@@ -19,3 +19,5 @@
 如果字符串常量池中能找到：直接返回找到引用对应的String对象
 
 可以这样简单理解，储存在常量池里的字符串也是一个个的包含value数组的String对象（其实是一个个的hashtable entry）
+
+具体看这篇文章  [文章](https://segmentfault.com/a/1190000039074103)
