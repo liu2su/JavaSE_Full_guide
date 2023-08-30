@@ -16,3 +16,12 @@ public class StringExercise08 {
     }
 }
 ```
+
+例：
+```java
+        String str = "lsy";
+        String str3 = str + "1";
+        String str4 = "lsy1";
+        System.out.println(str3 == "lsy1"); //false
+        System.out.println(str4 == "lsy1"); // true
+```
