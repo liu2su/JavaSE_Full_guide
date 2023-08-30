@@ -1,4 +1,4 @@
-看下面一行代码
+**第一题**看下面一行代码
 ```java
 class Test1 {
     String str = new String("hsp");
@@ -38,5 +38,13 @@ public class Test1 {
 
 }
 ```
+这行代码输出的是java了。不同点在于局部变量的存在导致了指向不同
 
-这行代码输出的是java了。体会不同
+**第二题** 我们都知道比较两个String对象时，要用equals()来比较内容。但是在有些情况下，也是可以通过==来比较的，比如：
+```java
+        String str = "lsy";
+        String str2 = new String("lsy");
+        System.out.println(str == "lsy");//output true
+        System.out.println(str2 == "lsy");// output false
+```
+我的理解是，字符串字面量都是存储在常量池的。
