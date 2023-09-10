@@ -5,4 +5,6 @@
 
 ![1](https://github.com/liu2su/JavaSE_Full_guide/assets/96462566/60d000ef-930a-46f4-9e2b-5f253f288a5b)
 
+
+set实现类都继承了abstractSet 抽象类， List实现类都继承了abstractList抽象类
 所以HashSet可以调用abstractCollection重写的toString方法
