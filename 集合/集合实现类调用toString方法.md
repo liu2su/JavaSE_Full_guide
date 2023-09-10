@@ -7,4 +7,5 @@
 
 
 set实现类都继承了abstractSet 抽象类， List实现类都继承了abstractList抽象类
+
 所以HashSet可以调用abstractCollection重写的toString方法
