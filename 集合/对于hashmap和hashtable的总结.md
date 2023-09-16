@@ -11,3 +11,6 @@ key的内容不同，经过计算的hash(key）可能相同。所以当hash值�
 而又因为value不是实际存储数据的元素，所以实现了禁止添加重复元素的功能。 而hashmap,存储的数据是键值对。
 
 2. 总的来讲，key是一个值，hash是根据key计算得到的整数，key不同，hash有可能相同。
+
+
+hashtable是线程安全版本的hashmap,并且不能加null 的key和value，并且扩容机制有区别，除此之外没有区别。
