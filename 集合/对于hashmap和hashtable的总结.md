@@ -2,7 +2,7 @@ HashMap和HashSet都是利用hashmap来实现的，hashmap本质是通过数组+
 
 key的内容不同，经过计算的hash(key）可能相同，即插入位置相同。所以当hash值相同时，**并且**key与该链表每一个节点都不同，则会在链表末尾新增一个节点。
 
-如果hash值相同，**并且**key值不同，那么就会发生value值的替换。
+如果hash值相同，**并且**key值相同，那么就会发生value值的替换。
 
 这是hashmap的基本原理。
 
