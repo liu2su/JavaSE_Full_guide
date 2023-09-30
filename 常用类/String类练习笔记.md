@@ -47,4 +47,4 @@ public class Test1 {
         System.out.println(str == "lsy");//output true
         System.out.println(str2 == "lsy");// output false
 ```
-我的理解是，字符串字面量都是存储在常量池的。
+我的理解是，字符串字面量都是存储在常量池的。（所以str和 "lsy"地址一样，显示为true,但是很明显这种比较方法不推荐，因为比较的是地址）
