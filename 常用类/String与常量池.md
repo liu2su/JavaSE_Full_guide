@@ -7,7 +7,7 @@
 2. 将创建的String对象封装成HashtableEntry，作为StringTable的value进行存储
 3. new String("xyz")会在堆区又创建一个String对象，char数组直接指向创建好的char数组对象
 
-如果字符串常量池中能找到：new String("xyz")会在堆区创建一个对象，char数组直接指向已经存在的char数组对象
+如果字符串常量池中能找到：new String("xyz")会在堆区创建一个对象，char数组直接指向已经存在的char数组对象（这里的char数组指的是String对象里的哪个private final成员变量）
 
 **而String s = "xyz"是怎么样的逻辑**：
 
