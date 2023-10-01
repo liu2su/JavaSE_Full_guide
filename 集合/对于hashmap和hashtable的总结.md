@@ -10,7 +10,7 @@ key的内容不同，经过计算的hash(key）可能相同，即插入位置相
 1. 在hashset中，节点的value值都是相等的，指向一个默认的Object，真正存储数据的是key，所以当一个重复对象加入时，本质是重复key，实际上执行了value替换，可以没有变。
 而又因为value不是实际存储数据的元素，所以实现了禁止添加重复元素的功能。 而hashmap,存储的数据是键值对。
 
-2. 总的来讲，key是一个值，hash是根据key计算得到的整数，key不同，hash有可能相同。
+2. 所以，key是一个我们输入的数据，hash是根据key计算得到的整数，key不同，hash有可能相同，是通过类的hashCode()方法得到的。
 
 
 hashtable是线程安全版本的hashmap,并且不能加null 的key和value，并且扩容机制有区别，除此之外没有区别。
