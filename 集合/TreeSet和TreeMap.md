@@ -1,0 +1,5 @@
+其实，TreeMap和TreeSet底层都是一个二叉树，加入节点时要与树上的节点进行比较，因此需要比较器。
+
+如果创建TreeMap或者Set时没有传入实现了comparator接口的实例，那么则会调用该类的compareTo 方法：
+
+也就是说，要么传入一个匿名内部类，要么传入的数据需要实现Comparator里的compareTo方法。
