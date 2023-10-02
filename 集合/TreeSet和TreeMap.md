@@ -3,3 +3,7 @@
 如果创建TreeMap或者Set时没有传入实现了comparator接口的实例，那么则会调用该类的compareTo 方法：
 
 也就是说，要么传入一个匿名内部类，要么传入的数据需要实现Comparator里的compareTo方法。
+
+而Set和Map的区别也就是TreeNode value的区别，
+
+Set是单列数据结构，所以value是一个固定的Object, Map是pair结构，所以value需要我们自己添加。
