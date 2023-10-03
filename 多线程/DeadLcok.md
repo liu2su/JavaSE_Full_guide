@@ -13,7 +13,7 @@ public class run{
 }
 
 class myThread extends Thread {
-    private static Object lock1 = new Object();
+    private static Object lock1 = new Object(); // 如果你能理解这里为什么必须用static，以及这两个成员变量的作用，那么说明你对多线程同步有个基础的概念了
     private static Object lock2 = new Object();
     private boolean flag;
 
