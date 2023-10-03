@@ -3,3 +3,5 @@
 **线程从 runnable 状态进入其他状态（blocked,waiting和terminate）就会unlock** 注意：timed-waiting不会unlock
 
 抓住上面那一条，是不是就很清晰了，比如sleep方法会释放锁吗？不会的，sleep方法没有改变线程状态（线程处于timed-wait）。
+
+还有一条，锁的概念和同步的概念是一起的，有同步（synchronized）需求才会有锁
