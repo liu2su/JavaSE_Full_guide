@@ -3,8 +3,11 @@ I/O 流，本质就是**程序与容器里数据的交互**，是内存（程序
 而交互的本质是什么？其实就是**增查改删**，简写CRUD：
 
 C：creat，创建一个数据（文件）
+
 R：read,读取数据到内存
+
 U：update，更改数据
+
 D：delete，删除数据
 
 而这种CRUD的操作必定是程序完成的，Java万物均是对象，File, InputStream,OutputStream,Reader,Writer应运而生。
