@@ -1,4 +1,4 @@
-TreeSet和TreeMap底层都是通过红黑树实现的，区别是TreeSet存储单列数据：key，value是一个不变的Object成员变量，TreeMap存储键值对。
+TreeSet和TreeMap底层都是通过红黑树实现的，区别是TreeSet存储单列数据，数据存储在key中，value是一个不变的Object成员变量，TreeMap存储键值对。
 
 TreeSet实现了 Set接口，所以属于Set这个集合概念下的一个数据结构。特点和Set一样，插入的数据不能重复，但是实现方法是不同的，在某些情况下如果不理解这一点很容易出错，所以我觉得有
 必要记录一下。
