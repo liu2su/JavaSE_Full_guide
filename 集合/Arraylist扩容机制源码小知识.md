@@ -7,7 +7,7 @@
 newCpacity = oldCapacity + (oldCapacity >> 2) // 此时 oldCapacity = 1 ，所以newCpacity是 1 + 0 = 1 
 ```
 
-此时会进入下一个if语句比较两个整数大小，而明显new是比min小的，一次此时new 会被赋予min的值，也就是2!!!!
+此时会进入下一个if语句比较两个整数大小，而明显new是比min小的，因此此时new 会被赋予min的值，也就是2!!!!
 
 这个神奇之处在于，一般书上讲的都是1.5倍扩容，然而size = 1时是2倍扩容。
 
