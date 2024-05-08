@@ -1,5 +1,6 @@
-## 什么是java查缺手册？
-
-差缺手册，顾名思义，指的是查漏补缺的手册。本repo不系统的讲解Java这门语言每个特性的知识，而是列出笔者在学习这门语言时，遇到的corner case或者易错点。帮助同学们更好的理解Java这门语言。
+## 中英对照
+### 线程 thread
+并发 concurrency
+并行 parallelism
 
 
