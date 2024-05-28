@@ -12,4 +12,6 @@
 
 线程 Thread
 
+### I/O
+装饰器模式 Decorator Pattern
 
