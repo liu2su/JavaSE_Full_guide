@@ -1,4 +1,4 @@
-这里补充一下wait和notify的运行机制，需要说明的是notify和wait的调用者是对象锁本身，所以只会唤醒唤醒处于和notify使用同一个对象锁上的，且处于"等待状态"的任意一个线程。
+这里补充一下wait和notify的运行机制，需要说明的是notify和wait的调用者是对象锁本身，所以只会唤醒处于使用同一个对象锁上的，且处于"等待状态"的任意一个线程。
 
 ![20190804232832471](https://github.com/liu2su/JavaSE_Full_guide/assets/96462566/1f2da4a6-e2b7-44c1-893d-8929b660d85a)
 
