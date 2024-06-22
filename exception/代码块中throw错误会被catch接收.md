@@ -44,4 +44,3 @@ public class EcmDef {
 ```
 
 这道题里，try代码块里throw一个异常，会被catch接收并处理，如果没有接收，则会被默认抛出直到虚拟机。
-**对try-catch代码块理解的不够深刻，不要觉得显式throw命令有什么特殊的**
